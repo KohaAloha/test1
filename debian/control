@@ -1,0 +1,35 @@
+Source: libcatmandu-html-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Mason James <mtj@kohaaloha.com>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               libmodule-build-tiny-perl,
+               perl
+Build-Depends-Indep: libcatmandu-perl <!nocheck>,
+                     libhtml-parser-perl <!nocheck>,
+                     libmoo-perl <!nocheck>,
+                     libnamespace-clean-perl <!nocheck>,
+                     libtest-deep-perl <!nocheck>,
+                     libtest-exception-perl <!nocheck>,
+                     libtest-pod-perl <!nocheck>,
+                     libtest-simple-perl <!nocheck>
+Standards-Version: 4.6.2
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libcatmandu-html-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libcatmandu-html-perl.git
+Homepage: https://metacpan.org/release/Catmandu-HTML
+Rules-Requires-Root: no
+
+Package: libcatmandu-html-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libcatmandu-perl,
+         libhtml-parser-perl,
+         libmoo-perl,
+         libnamespace-clean-perl
+Description: Modules for handling HTML data within the Catmandu framework
+ (no description was found)
+ .
+ This description was automagically extracted from the module by dh-make-perl.
