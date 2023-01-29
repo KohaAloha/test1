@@ -1,5 +1,18 @@
 libcatmandu-html-perl (0.02-1) UNRELEASED; urgency=low
 
+  PROBLEM:
+  t/muse.html is a copy of some MUSE website, with different copyright holders
+  and: with no license. so this file is non-free, and we can't distribute it
+  in debian.
+  --> we need to repack the tarball, cf.
+  https://perl-team.pages.debian.net/howto/repacking.html
+  --> without the file the tests will fail, so we either need a substitute
+  file or we need to disable them
+  (or we can ask upstream to replace the file …)
+
+  TODO:
+  - ITP bug
+
   * Initial release.
 
  -- Mason James <mtj@kohaaloha.com>  Thu, 26 Jan 2023 18:48:22 +1300
