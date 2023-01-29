@@ -30,6 +30,7 @@ Depends: ${misc:Depends},
          libmoo-perl,
          libnamespace-clean-perl
 Description: Modules for handling HTML data within the Catmandu framework
- (no description was found)
- .
- This description was automagically extracted from the module by dh-make-perl.
+ Catmandu::HTML contains modules for handling HTML data within the Catmandu
+ framework.
+
+ Catmandu provides a suite of Perl modules to ease the import, storage, retrieval, export and transformation of metadata records.
