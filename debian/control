@@ -33,4 +33,5 @@ Description: Modules for handling HTML data within the Catmandu framework
  Catmandu::HTML contains modules for handling HTML data within the Catmandu
  framework.
  .
- Catmandu provides a suite of Perl modules to ease the import, storage, retrieval, export and transformation of metadata records.
+ Catmandu provides a suite of Perl modules to ease the import, storage,
+ retrieval, export and transformation of metadata records.
