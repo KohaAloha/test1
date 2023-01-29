@@ -13,7 +13,6 @@ Build-Depends-Indep: libcatmandu-perl <!nocheck>,
                      libnamespace-clean-perl <!nocheck>,
                      libtest-deep-perl <!nocheck>,
                      libtest-exception-perl <!nocheck>,
-                     libtest-pod-perl <!nocheck>,
                      libtest-simple-perl <!nocheck>
 Standards-Version: 4.6.2
 Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libcatmandu-html-perl
