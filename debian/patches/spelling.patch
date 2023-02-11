@@ -1,0 +1,12 @@
+diff --git a/README b/README
+index fdc48ca..32e0908 100644
+--- a/README
++++ b/README
+@@ -1,6 +1,6 @@
+ NAME
+ 
+-    Catmandu::HTML - Modules for handling HTML data within the Catmandu
++    XXX::HTML - Modules for handling HTML data within the Catmandu
+     framework
+ 
+ SYNOPSIS
