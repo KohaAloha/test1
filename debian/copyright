@@ -2,6 +2,7 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Source: https://metacpan.org/release/Catmandu-HTML
 Upstream-Contact: Patrick Hochstenbach <patrick.hochstenbach@ugent.be>
 Upstream-Name: Catmandu-HTML
+Files-Excluded: t/muse.t
 
 Files: *
 Copyright: 2018, Patrick Hochstenbach <patrick.hochstenbach@ugent.be>
